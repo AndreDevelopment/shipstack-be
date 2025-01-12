@@ -3,6 +3,6 @@ numpy>=1.24.0
 googlemaps>=4.8.2 
 pandas>=2.0.1
 fastapi[all]>=0.97.0
-uvicorn>=0.21.1
+uvicorn>=0.34.0
 pydantic>=2.4.0
-dotenv>=0.21.1
+dotenv>1.0.1
