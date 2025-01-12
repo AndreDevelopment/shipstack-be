@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "shipstack_api.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "shipstack_api.py"
+      }
+    ]
+  }
