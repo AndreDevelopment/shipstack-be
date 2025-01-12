@@ -1,8 +1,8 @@
-scikit-learn
-numpy
-googlemaps
-pandas
-fastapi[all] 
-uvicorn
-pydantic
-dotenv
+scikit-learn>=1.2.0
+numpy>=1.24.0
+googlemaps>=4.8.2 
+pandas>=2.0.1
+fastapi[all]>=0.97.0
+uvicorn>=0.21.1
+pydantic>=2.4.0
+dotenv>=0.21.1
