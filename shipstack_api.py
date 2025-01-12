@@ -3,9 +3,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from service import get_clusters
-import uvicorn
 import json
-import pandas as pd
+
 
 
 app = FastAPI()
