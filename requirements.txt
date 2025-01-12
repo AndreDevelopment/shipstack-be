@@ -1,0 +1,8 @@
+scikit-learn
+numpy
+googlemaps
+pandas
+fastapi[all] 
+uvicorn
+pydantic
+dotenv
